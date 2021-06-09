@@ -46,6 +46,8 @@ GN_COMMON_ARGS = [
     'treat_warnings_as_errors=false',
     'is_component_build=false',
     'rtc_libvpx_build_vp9=true',
+    'rtc_use_h264=true',
+    'ffmpeg_branding="Chrome"',
     'is_debug=%s',
     'target_cpu="%s"'
 ]
