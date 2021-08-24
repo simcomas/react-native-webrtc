@@ -609,8 +609,8 @@ public class WebRTCModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void mediaStreamTrackSetEnabled(String id, boolean enabled) {
-        ThreadUtils.runOnExecutor(() ->
-            mediaStreamTrackSetEnabledAsync(id, enabled));
+//        ThreadUtils.runOnExecutor(() ->
+//            mediaStreamTrackSetEnabledAsync(id, enabled));
     }
 
     private void mediaStreamTrackSetEnabledAsync(String id, boolean enabled) {
